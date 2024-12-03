@@ -33,6 +33,11 @@
           icon="tim-icons icon-puzzle-10"
         />
         <sidebar-link
+          to="/table-list"
+          :name="$t('sidebar.menus')"
+          icon="tim-icons icon-puzzle-10"
+        />
+        <sidebar-link
           to="/typography"
           :name="$t('sidebar.typography')"
           icon="tim-icons icon-align-center"
